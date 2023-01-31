@@ -1,0 +1,76 @@
+html {
+    margin: 0;
+    padding: 0;
+    background: #585d63;
+    color: #fff;
+}
+
+body{
+    width: 100%;
+    margin: 10px auto;
+}
+
+.Limpiar {
+    clear: both;
+}
+
+header, nav, aside, section, article, footer{
+    margin: 10px 0;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    background-color: #585d63;
+}
+
+nav{
+    background: #ff2cff;
+}
+
+ul{
+    list-style: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 0 10px;
+    padding: 1px 10px;
+    border:  1px solid #fff;
+}
+
+aside{
+    float: left;
+    width: 25%;
+    height: 200px;
+    background: #5780b3;
+}
+
+section{
+    float: right;
+    width: 70%;
+    height: 200px;
+    background: #38c51f; 
+}
+
+
+
+article{
+    margin: 10px ;
+    background: #1f4bc5;
+    width: 90%;
+}
+
+footer{
+    background: #d6a61595;
+}
+
+aside div{
+    position: relative;
+    top: 50%; 
+    transform: translateY(-50%);
+}
